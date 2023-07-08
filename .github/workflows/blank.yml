@@ -6,7 +6,7 @@ on:
       IMG_URL:    
         description: 'IMG_URL'
         required: true
-        default: ''
+        default: 'http://wxmc.top:53077/api/v1/files/download?path=/sky/recovery.img'
 
 jobs:
   build:
